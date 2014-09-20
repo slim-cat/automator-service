@@ -17,7 +17,7 @@ It will create a link with a one hour expiry, and will show a notification with 
 mkdir -p ~/Library/Services
 git clone https://github.com/slim-cat/automator-service ~/Library/Services/Slim.cat.workflow
 # Reload Services
-/System/Library/CoreServices/pbs
+/System/Library/CoreServices/pbs -update
 
 # One liner
 mkdir -p ~/Library/Services && git clone https://github.com/slim-cat/automator-service ~/Library/Services/Slim.cat.workflow && /System/Library/CoreServices/pbs -update
